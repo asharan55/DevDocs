@@ -1,0 +1,52 @@
+emacs
+
+Global Bindings Starting With M-s:
+key             binding
+---             -------
+
+M-s h           Prefix Command
+M-s o           occur
+M-s w           isearch-forward-word
+
+M-s h f         hi-lock-find-patterns
+M-s h l         highlight-lines-matching-regexp
+M-s h p         highlight-phrase
+M-s h r         highlight-regexp
+M-s h u         unhighlight-regexp
+M-s h w         hi-lock-write-interactive-patterns
+
+C-M-s   Begin incremental regexp search (isearch-forward-regexp).
+
+C-M-r  Begin reverse incremental regexp search (isearch-backward-regexp).
+
+
+C-x o - switch windows
+
+C-x C-b buffer list
+
+M-x undo-all / Repeat the undo command (C-/ or C-x u or C-_ ) 
+
+C-x x g  revert-buffer
+
+C-x z: This will repeat the last command exactly.
+
+
+To set the large-file-warning-threshold variable, you can use the following steps:
+
+Press C-h v large-file-warning-threshold to get help on this variable.
+
+Press M-x customize-variable RET large-file-warning-threshold to open the customization buffer for this variable.
+
+Enter a new value for the variable and press Enter.
+
+Press C-x C-s to save your changes.
+
+C-x space to select block 
+
+Search History - C-s C-s you search the previous word. Then M-p (and M-n) for history.
+
+use M-s h . to highlight the current word, and it will use your custom face.
+
+To make the cursor even more visible, you can use HL Line mode, a minor mode that highlights the line containing point. Use M-x hl-line-mode to enable or disable it in the current buffer. M-x global-hl-line-mode enables or disables the same mode globally.
+
+use M-e at any time during Isearch to edit the search string.
