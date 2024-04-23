@@ -47,6 +47,10 @@ Search History - C-s C-s you search the previous word. Then M-p (and M-n) for hi
 
 use M-s h . to highlight the current word, and it will use your custom face.
 
-To make the cursor even more visible, you can use HL Line mode, a minor mode that highlights the line containing point. Use M-x hl-line-mode to enable or disable it in the current buffer. M-x global-hl-line-mode enables or disables the same mode globally.
+To make the cursor even more visible, you can use HL Line mode, a minor mode that highlights the line containing point. 
+
+Use M-x hl-line-mode to enable or disable it in the current buffer. 
+
+M-x global-hl-line-mode enables or disables the same mode globally.
 
 use M-e at any time during Isearch to edit the search string.
